@@ -5,70 +5,50 @@
 1. XAMPP Control Panel.
 2. Web Brower to operate Attendance System.
 
+### Techstacks Used
+1. Html
+2. Css
+3. Javascript
+4. Ajax
+5. Jquery
+6. Php
+7. MySql
+8. Bootstrap
 
+### About The Features of Website
+1. There are two interfaces in the website one is for students and ather is for teachers.
+2. The main feature of the website is to record the attendance with the help of face-recognition which is done using open source javascript library face-api.js<br>
+
+**Components of student interface**
+* Student-Dashboard : It includes student profile image and basic details of the particular student.
+* Student Today Attendance Page : In this page student can check if he/she have recorded their attendance on that day or not.
+* Student Overall Attendance Page : The following page student can check their attendance percentage through out the academic year,i.e; attendance in each month and each day of the month.<br>
+
+**Components of teacher interface**
+* Teacher-Dashboard : This page contains teacher profile.
+* Record Student Attendance Page: In this page teacher can upload image of classroom to record the attendance of students present in that classroom.
+* Attendance Analytics: Here teacher can view the stastics of attendance in a year and month in form of bargraphs, pie-chart, wavy-chart and line-graph.
+* Low Attendance Tracking Page: This page diplays the details of students whose attendance is low (means < 5 days in that month).
+* Attendance According To Date Page: In this teacher can check the attendance of a class on any date of the year.
+* Attendance Today Page: Here teacher can check the status of attendance of all students in a particular class.
+* Overall Attendance Page: The following page displays status of attendance along with details of each students according to selected class and month by the teacher.
+* Search Page: Teacher can search within the data of students by applying some filters.
 ### Steps
 
-1. Install the XAMPP Control Panel v3.3.0. Place the cloned folder/ repository 'Face_recognition' in the xampp->htdocs folder. Run XAMPP. Click on Start for Apache and MySQL.
-2. Clone this repository in any directory of your choice.
-
+1. Clone this repository and place it in the htdocs folder of C-drive.
+2. Use the following command to clone the repository.
 ```
-git clone https://github.com/shashankp28/soi-space-ds.git
+https://github.com/vaishnavi-challa/Attendance-System-Using-Face-Recognition.git
 ```
-
-3. Run the following command to move into the cloned repository.
-
+3. Firstly for accessing the website use the following url to create database and required tables.
 ```
-cd soi-space-ds
+http://localhost/Attendance-System-Using-Face-Recognition/trail.php
 ```
-4. Run ***one*** of these commands to install tkinter, depending upon your system's python configuration (python / python3).
-
+4. Paste the following url in the browser to open the website.
 ```
-sudo apt-get install python3-tk
-```
-```
-sudo apt-get install python-tk
+http://localhost/Attendance-System-Using-Face-Recognition/home-page.php
 ```
 
-5. Execute the **_setup.sh_** file to install dependencies and create `run.sh` file.
+5. To access the teacher's page use the following **username - vaishu123** and **password - 456**
 
-```
-chmod 755 setup.sh && ./setup.sh
-```
-
-_When prompted, choose whether to install packages on a virtual environment. **yes** recommended_
-
-6. Host the web-app locally using the following command
-
-```
-./run.sh
-```
-
-Once the setup is complete, the web-app can be opened using _loalhost_ **_[Port 8501](http://localhost:8501)_**.
-**Use Ctrl+C inside the terminal to stop.**
-
-### Important
-
-**_Once the app is setup, you can host the web-app using only step 5._**
-
-### Using the application
-
-1. Initially upload a csv file in the format shown in the web-app.
-2. Next navigate to the **_Docs_** tab from the side nav bar.
-3. Detailed instructions on using the application is given, including a short video.
-
-### Note
-
-- The notebook and data used for training can be found under the following directories:
-
-  1. `ML/SDS_MODEL.ipynb`
-  2. `ML/data_full.csv`
-     <br>
-     <br>
-
-- Documentation for ML model is named as `Documentation_Kepler.pdf`
-- Documentation for the Web-App can be found under the `Docs` tab of the Web-App itself.
-- The predictions are present in the `predicted` coloumn in downloaded files.
-
-_The Random Forest Model couldn't be incorporated as it's size was around 3.5 GB and would not be feasible for a stand-alone application. The model can be run on Google Colab._
-
-- Link to Model: [Random Forest](https://drive.google.com/file/d/1MTWGQinxfvbYmVzOYc4AGZO26kWE11xA/view?usp=sharing)
+6. To access the student's page use the following **username - vaishu123** and **password - vaishnavi1**
