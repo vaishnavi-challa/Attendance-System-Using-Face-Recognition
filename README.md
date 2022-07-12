@@ -1,18 +1,14 @@
 # Face-Recoognition-Attendance-System
 
-## Team Project
-
-This is a standalone web-app used for classification of planetary data. The web-app can be setup by following the shown steps.
-
 ### Prerequisites
 
-1. Linux system.
-2. Python / Python3 installed.
-3. Latest version of `pip` installed.
+1. XAMPP Control Panel.
+2. Web Brower to operate Attendance System.
+
 
 ### Steps
 
-1. Open your bash terminal.
+1. Install the XAMPP Control Panel v3.3.0. Place the cloned folder/ repository 'Face_recognition' in the xampp->htdocs folder. Run XAMPP. Click on Start for Apache and MySQL.
 2. Clone this repository in any directory of your choice.
 
 ```
