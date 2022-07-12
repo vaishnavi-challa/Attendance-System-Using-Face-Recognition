@@ -16,18 +16,18 @@
 8. Bootstrap
 
 ### About The Features of Website
-1. There are two interfaces in the website one is for students and ather is for teachers.
-2. The main feature of the website is to record the attendance with the help of face-recognition which is done using open source javascript library face-api.js<br>
+1. There are two interfaces present in this website one is for students and the other is for teachers.
+2. The main feature of this website is to record the attendance with the help of face-recognition which can be done using open source javascript library face-api.js<br>
 
 **Components of student interface**
-* Student-Dashboard : It includes student profile image and basic details of the particular student.
-* Student Today Attendance Page : In this page student can check if he/she have recorded their attendance on that day or not.
-* Student Overall Attendance Page : The following page student can check their attendance percentage through out the academic year,i.e; attendance in each month and each day of the month.<br>
+* Student-Dashboard : It includes student profile image and basic details of a particular student.
+* Student Today Attendance Page : In this page, student can check whether he/she have recorded their attendance on that day or not.
+* Student Overall Attendance Page : Here, student can check their attendance percentage throughout the academic year i.e., attendance in each month and each day of the month.<br>
 
 **Components of teacher interface**
-* Teacher-Dashboard : This page contains teacher profile.
-* Record Student Attendance Page: In this page teacher can upload image of classroom to record the attendance of students present in that classroom.
-* Attendance Analytics: Here teacher can view the stastics of attendance in a year and month in form of bargraphs, pie-chart, wavy-chart and line-graph.
+* Teacher-Dashboard : This page contains teacher profile that includes basic details.
+* Record Student Attendance Page: In this page, teacher can upload an image of a classroom to record the attendance of students present in that classroom.
+* Attendance Analytics: Here, teacher can view the stastics of attendance in a year and month in form of bargraphs, pie-chart, wavy-chart and line-graph.
 * Low Attendance Tracking Page: This page diplays the details of students whose attendance is low (means < 5 days in that month).
 * Attendance According To Date Page: In this teacher can check the attendance of a class on any date of the year.
 * Attendance Today Page: Here teacher can check the status of attendance of all students in a particular class.
