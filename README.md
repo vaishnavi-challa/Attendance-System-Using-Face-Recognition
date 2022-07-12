@@ -1,4 +1,4 @@
-# Face-Recoognition-Attendance-System
+# Face-Recognition-Attendance-System
 
 ### Prerequisites
 
