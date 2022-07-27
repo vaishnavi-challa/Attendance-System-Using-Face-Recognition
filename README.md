@@ -42,7 +42,7 @@ https://github.com/vaishnavi-challa/Attendance-System-Using-Face-Recognition.git
 ```
 3. Firstly for accessing the website use the following url to create database and required tables.
 ```
-http://localhost/Attendance-System-Using-Face-Recognition/trail.php
+http://localhost/Attendance-System-Using-Face-Recognition/db.php
 ```
 4. Paste the following url in the browser to open the website.
 ```
