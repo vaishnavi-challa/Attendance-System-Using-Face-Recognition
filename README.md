@@ -49,6 +49,6 @@ http://localhost/Attendance-System-Using-Face-Recognition/db.php
 http://localhost/Attendance-System-Using-Face-Recognition/home-page.php
 ```
 
-5. To access the teacher's page use the following **username - vaishu123** and **password - 456**
+5. To access the teacher's page use the following **username - vaish123** and **password - 456**
 
 6. To access the student's page use the following **username - vaishu123** and **password - vaishnavi1**
