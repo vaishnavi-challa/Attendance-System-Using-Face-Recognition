@@ -530,20 +530,20 @@ $sql = "CREATE TABLE `december` (
 } else {
   echo "Error creating table: " . $conn->error;
 }
-$sql="INSERT INTO teachers(`fname`, `username`, `profession`, `classes`, `subjects`, `password`) VALUES ('vyshnavi', 'vysh123', 'teacher', '10', 'maths', '123'),('vaishnavi', 'vaish123', 'teacher', '9', 'science', '456'),
-('umadevi', 'uma123', 'teacher', '9', 'sanskrit', '789'),('John', 'john123', 'teacher', '8', 'French', '365'),('Harry', 'harry123', 'teacher', '9', 'spanish', '567')";
+$sql="INSERT INTO teachers(`fname`, `username`, `profession`, `classes`, `subjects`, `password`) VALUES ('andria', 'andria123', 'teacher', '10', 'maths', '123'),('vaishnavi', 'vaish123', 'teacher', '9', 'science', '456'),
+('jenny', 'jenny123', 'teacher', '9', 'sanskrit', '789'),('John', 'john123', 'teacher', '8', 'French', '365'),('Harry', 'harry123', 'teacher', '9', 'spanish', '567')";
 
 if ($conn->query($sql) === TRUE){
   echo "inserted into tables successfully";
 } else {
   echo "Error creating table: " . $conn->error;
 }
-$sql="INSERT INTO `students` (`fname`, `username`, `email`, `class`, `schlno`, `phone`, `password`) VALUES ('uma', 'uma123', 'umadevi10@gmail.com', '10', '200010010', '7702042033', 'uma1'),('robin', 'robin123', 'robin100@gmail.com', '10', '200010123', '8374431037', 'robin1'),('hopper', 'hopper123', 'hopper100@gmail.com', '10', '200010132', '93813098457', 'hopper1'),('joyce', 'joyce123', 'joyce344@gmail.com', '10', '200010153', '8618402947', 'joyce1'),('steve', 'steve123', 'steve123@gmail.com', '10', '200010148', '6678543921', 'steve1'),('vaishnavi', 'vaishu123', 'vaish123@gmail.com', '9', '201112201', '984567157', 'vaishnavi1'),
+$sql="INSERT INTO `students` (`fname`, `username`, `email`, `class`, `schlno`, `phone`, `password`) VALUES ('belly', 'belly123', 'belly10@gmail.com', '10', '200010010', '7702042033', 'belly1'),('robin', 'robin123', 'robin100@gmail.com', '10', '200010123', '8374431037', 'robin1'),('hopper', 'hopper123', 'hopper100@gmail.com', '10', '200010132', '93813098457', 'hopper1'),('joyce', 'joyce123', 'joyce344@gmail.com', '10', '200010153', '8618402947', 'joyce1'),('steve', 'steve123', 'steve123@gmail.com', '10', '200010148', '6678543921', 'steve1'),('vaishnavi', 'vaishu123', 'vaish123@gmail.com', '9', '201112201', '984567157', 'vaishnavi1'),
 ('will', 'will123', 'will@gmail.com', '9', '201112202', '8795462587', 'will1'),
 ('mike', 'mike123', 'mike@gmail.com', '9', '201112203', '7586849564', 'mike1'),
 ('max', 'max123', 'max345@gmail.com', '9', '201112204', '8569475698', 'max1'),
 ('nancy', 'nancy123', 'nancy@gmail.com', '9', '201112205', '758689546', 'nancy1'),('el', 'el123', 'el234@gmail.com', '8', '200010186', '985896743', 'el1'),('dustin', 'dustin123', 'dustin345@gmail.com', '8', '200010146', '8618402945', 'dustin1')
-,('lucus', 'lucus123', 'lucus123@gmail.com', '8', '200010193', '756897895', 'lucus1'),('vyshnavi', 'vyshu123', 'vysh123@gmail.com', '8', '200010153', '9564587456', 'vyshnavi1'),('jonathon', 'jona123', 'jonathon@gmail.com', '8', '200010154', '7589645869', 'jonathon1')";
+,('lucus', 'lucus123', 'lucus123@gmail.com', '8', '200010193', '756897895', 'lucus1'),('erica', 'erica123', 'erica123@gmail.com', '8', '200010153', '9564587456', 'erica1'),('jonathon', 'jona123', 'jonathon@gmail.com', '8', '200010154', '7589645869', 'jonathon1')";
 
 
 if ($conn->query($sql) === TRUE){
@@ -552,12 +552,12 @@ if ($conn->query($sql) === TRUE){
   echo "Error creating table: " . $conn->error;
 }
 
-$sql="INSERT INTO `january` (`fname`) VALUES ('uma'),('robin'),('hopper'),('joyce'),('steve'),('vaishnavi'),
+$sql="INSERT INTO `january` (`fname`) VALUES ('belly'),('robin'),('hopper'),('joyce'),('steve'),('vaishnavi'),
 ('will'),
 ('mike'),
 ('max'),
 ('nancy'),('el'),('dustin')
-,('lucus'),('vyshnavi'),('jonathon')";
+,('lucus'),('erica'),('jonathon')";
 
 if ($conn->query($sql) === TRUE){
   echo "inserted into tables successfully";
@@ -565,12 +565,12 @@ if ($conn->query($sql) === TRUE){
   echo "Error creating table: " . $conn->error;
 }
 
-$sql="INSERT INTO `february` (`fname`) values ('uma'),('robin'),('hopper'),('joyce'),('steve'),('vaishnavi'),
+$sql="INSERT INTO `february` (`fname`) values ('belly'),('robin'),('hopper'),('joyce'),('steve'),('vaishnavi'),
 ('will'),
 ('mike'),
 ('max'),
 ('nancy'),('el'),('dustin')
-,('lucus'),('vyshnavi'),('jonathon')";
+,('lucus'),('erica'),('jonathon')";
 
 if ($conn->query($sql) === TRUE){
   echo "inserted into tables successfully";
@@ -578,12 +578,12 @@ if ($conn->query($sql) === TRUE){
   echo "Error creating table: " . $conn->error;
 }
 
-$sql="INSERT INTO `march` (`fname`) VALUES ('uma'),('robin'),('hopper'),('joyce'),('steve'),('vaishnavi'),
+$sql="INSERT INTO `march` (`fname`) VALUES ('belly'),('robin'),('hopper'),('joyce'),('steve'),('vaishnavi'),
 ('will'),
 ('mike'),
 ('max'),
 ('nancy'),('el'),('dustin')
-,('lucus'),('vyshnavi'),('jonathon')";
+,('lucus'),('erica'),('jonathon')";
 
 if ($conn->query($sql) === TRUE){
   echo "inserted into tables successfully";
@@ -591,12 +591,12 @@ if ($conn->query($sql) === TRUE){
   echo "Error creating table: " . $conn->error;
 }
 
-$sql="INSERT INTO `april` (`fname`) VALUES ('uma'),('robin'),('hopper'),('joyce'),('steve'),('vaishnavi'),
+$sql="INSERT INTO `april` (`fname`) VALUES ('belly'),('robin'),('hopper'),('joyce'),('steve'),('vaishnavi'),
 ('will'),
 ('mike'),
 ('max'),
 ('nancy'),('el'),('dustin')
-,('lucus'),('vyshnavi'),('jonathon')";
+,('lucus'),('erica'),('jonathon')";
 
 if ($conn->query($sql) === TRUE){
   echo "inserted into tables successfully";
@@ -604,12 +604,12 @@ if ($conn->query($sql) === TRUE){
   echo "Error creating table: " . $conn->error;
 }
 
-$sql="INSERT INTO `may` (`fname`) VALUES ('uma'),('robin'),('hopper'),('joyce'),('steve'),('vaishnavi'),
+$sql="INSERT INTO `may` (`fname`) VALUES ('belly'),('robin'),('hopper'),('joyce'),('steve'),('vaishnavi'),
 ('will'),
 ('mike'),
 ('max'),
 ('nancy'),('el'),('dustin')
-,('lucus'),('vyshnavi'),('jonathon')";
+,('lucus'),('erica'),('jonathon')";
 
 if ($conn->query($sql) === TRUE){
   echo "inserted into tables successfully";
@@ -617,12 +617,12 @@ if ($conn->query($sql) === TRUE){
   echo "Error creating table: " . $conn->error;
 }
 
-$sql="INSERT INTO `june` (`fname`) VALUES ('uma'),('robin'),('hopper'),('joyce'),('steve'),('vaishnavi'),
+$sql="INSERT INTO `june` (`fname`) VALUES ('belly'),('robin'),('hopper'),('joyce'),('steve'),('vaishnavi'),
 ('will'),
 ('mike'),
 ('max'),
 ('nancy'),('el'),('dustin')
-,('lucus'),('vyshnavi'),('jonathon')";
+,('lucus'),('erica'),('jonathon')";
 
 if ($conn->query($sql) === TRUE){
   echo "inserted into tables successfully";
@@ -630,12 +630,12 @@ if ($conn->query($sql) === TRUE){
   echo "Error creating table: " . $conn->error;
 }
 
-$sql="INSERT INTO `july` (`fname`) VALUES ('uma'),('robin'),('hopper'),('joyce'),('steve'),('vaishnavi'),
+$sql="INSERT INTO `july` (`fname`) VALUES ('belly'),('robin'),('hopper'),('joyce'),('steve'),('vaishnavi'),
 ('will'),
 ('mike'),
 ('max'),
 ('nancy'),('el'),('dustin')
-,('lucus'),('vyshnavi'),('jonathon')";
+,('lucus'),('erica'),('jonathon')";
 
 if ($conn->query($sql) === TRUE){
   echo "inserted into tables successfully";
@@ -643,12 +643,12 @@ if ($conn->query($sql) === TRUE){
   echo "Error creating table: " . $conn->error;
 }
 
-$sql="INSERT INTO `august` (`fname`) VALUES ('uma'),('robin'),('hopper'),('joyce'),('steve'),('vaishnavi'),
+$sql="INSERT INTO `august` (`fname`) VALUES ('belly'),('robin'),('hopper'),('joyce'),('steve'),('vaishnavi'),
 ('will'),
 ('mike'),
 ('max'),
 ('nancy'),('el'),('dustin')
-,('lucus'),('vyshnavi'),('jonathon')";
+,('lucus'),('erica'),('jonathon')";
 
 if ($conn->query($sql) === TRUE){
   echo "inserted into tables successfully";
@@ -656,12 +656,12 @@ if ($conn->query($sql) === TRUE){
   echo "Error creating table: " . $conn->error;
 }
 
-$sql="INSERT INTO `september` (`fname`) VALUES ('uma'),('robin'),('hopper'),('joyce'),('steve'),('vaishnavi'),
+$sql="INSERT INTO `september` (`fname`) VALUES ('belly'),('robin'),('hopper'),('joyce'),('steve'),('vaishnavi'),
 ('will'),
 ('mike'),
 ('max'),
 ('nancy'),('el'),('dustin')
-,('lucus'),('vyshnavi'),('jonathon')";
+,('lucus'),('erica'),('jonathon')";
 
 if ($conn->query($sql) === TRUE){
   echo "inserted into tables successfully";
@@ -669,12 +669,12 @@ if ($conn->query($sql) === TRUE){
   echo "Error creating table: " . $conn->error;
 }
 
-$sql="INSERT INTO `october` (`fname`) VALUES ('uma'),('robin'),('hopper'),('joyce'),('steve'),('vaishnavi'),
+$sql="INSERT INTO `october` (`fname`) VALUES ('belly'),('robin'),('hopper'),('joyce'),('steve'),('vaishnavi'),
 ('will'),
 ('mike'),
 ('max'),
 ('nancy'),('el'),('dustin')
-,('lucus'),('vyshnavi'),('jonathon')";
+,('lucus'),('erica'),('jonathon')";
 
 if ($conn->query($sql) === TRUE){
   echo "inserted into tables successfully";
@@ -682,12 +682,12 @@ if ($conn->query($sql) === TRUE){
   echo "Error creating table: " . $conn->error;
 }
 
-$sql="INSERT INTO `november` (`fname`) VALUES ('uma'),('robin'),('hopper'),('joyce'),('steve'),('vaishnavi'),
+$sql="INSERT INTO `november` (`fname`) VALUES ('belly'),('robin'),('hopper'),('joyce'),('steve'),('vaishnavi'),
 ('will'),
 ('mike'),
 ('max'),
 ('nancy'),('el'),('dustin')
-,('lucus'),('vyshnavi'),('jonathon')";
+,('lucus'),('erica'),('jonathon')";
 
 if ($conn->query($sql) === TRUE){
   echo "inserted into tables successfully";
@@ -695,12 +695,12 @@ if ($conn->query($sql) === TRUE){
   echo "Error creating table: " . $conn->error;
 }
 
-$sql="INSERT INTO `december` (`fname`) VALUES ('uma'),('robin'),('hopper'),('joyce'),('steve'),('vaishnavi'),
+$sql="INSERT INTO `december` (`fname`) VALUES ('belly'),('robin'),('hopper'),('joyce'),('steve'),('vaishnavi'),
 ('will'),
 ('mike'),
 ('max'),
 ('nancy'),('el'),('dustin')
-,('lucus'),('vyshnavi'),('jonathon')";
+,('lucus'),('erica'),('jonathon')";
 
 if ($conn->query($sql) === TRUE){
   echo "inserted into tables successfully";
